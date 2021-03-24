@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DVI-WebApp/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/DVI-WebApp/static/js/main.cb80bfaf.chunk.js",
+    "main.js.map": "/DVI-WebApp/static/js/main.cb80bfaf.chunk.js.map",
+    "runtime-main.js": "/DVI-WebApp/static/js/runtime-main.ca81c7fb.js",
+    "runtime-main.js.map": "/DVI-WebApp/static/js/runtime-main.ca81c7fb.js.map",
+    "static/js/2.3908d0b3.chunk.js": "/DVI-WebApp/static/js/2.3908d0b3.chunk.js",
+    "static/js/2.3908d0b3.chunk.js.map": "/DVI-WebApp/static/js/2.3908d0b3.chunk.js.map",
+    "static/js/3.c016d153.chunk.js": "/DVI-WebApp/static/js/3.c016d153.chunk.js",
+    "static/js/3.c016d153.chunk.js.map": "/DVI-WebApp/static/js/3.c016d153.chunk.js.map",
+    "index.html": "/DVI-WebApp/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/DVI-WebApp/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.3908d0b3.chunk.js.LICENSE.txt": "/DVI-WebApp/static/js/2.3908d0b3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/DVI-WebApp/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca81c7fb.js",
+    "static/js/2.3908d0b3.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.cb80bfaf.chunk.js"
+  ]
+}
