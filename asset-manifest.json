@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DVI-WebApp/static/css/main.ed5c06ea.chunk.css",
-    "main.js": "/DVI-WebApp/static/js/main.3fa46fd2.chunk.js",
-    "main.js.map": "/DVI-WebApp/static/js/main.3fa46fd2.chunk.js.map",
+    "main.js": "/DVI-WebApp/static/js/main.d27b24f3.chunk.js",
+    "main.js.map": "/DVI-WebApp/static/js/main.d27b24f3.chunk.js.map",
     "runtime-main.js": "/DVI-WebApp/static/js/runtime-main.766323a6.js",
     "runtime-main.js.map": "/DVI-WebApp/static/js/runtime-main.766323a6.js.map",
     "static/js/2.bb188035.chunk.js": "/DVI-WebApp/static/js/2.bb188035.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.766323a6.js",
     "static/js/2.bb188035.chunk.js",
     "static/css/main.ed5c06ea.chunk.css",
-    "static/js/main.3fa46fd2.chunk.js"
+    "static/js/main.d27b24f3.chunk.js"
   ]
 }
