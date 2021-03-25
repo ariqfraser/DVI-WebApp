@@ -12,7 +12,15 @@ const Navbar = ({ toggle, isOpen }) => {
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem><NavLinkR to='/#about'>About</NavLinkR></NavItem>
+                        <NavItem><NavLinkR to='/#about'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}
+
+
+                        >About</NavLinkR></NavItem>
                         <NavItem><NavLinkR to='/flavours'>Flavours</NavLinkR></NavItem>
                         <NavItem><NavLinkR to='/events'>Events</NavLinkR></NavItem>
                     </NavMenu>

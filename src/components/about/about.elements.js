@@ -7,7 +7,7 @@ export const Container = styled.div`
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #EFEFEF
+    background-color: #FFFEFD;
 
     @media screen and (max-width: 768px){
         min-height: 0;

@@ -10,6 +10,14 @@ export const Container = styled.div`
     
 `;
 
+export const Section = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0;
+`;
+
 export const ItemWrapper = styled(Link)`
     display: flex;
     flex-direction: column;
