@@ -3,7 +3,7 @@ import {AiFillInstagram, AiFillFacebook, AiFillTwitterSquare} from 'react-icons/
 import {Link} from 'react-router-dom'
 
 export const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background-color: #EB697F;
     position: relative;
@@ -12,7 +12,31 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 4rem 0;
+    
+    @media screen and (max-width: 960px){
+        margin-top: 20%;
+    }
+
+
 `;
+
+export const Slant = styled.div`
+    width: 100vw;
+    height: 35%;
+    display: block;
+    position: absolute;
+    top: calc(0px - 20%);
+    background-color: #EB697F;
+    z-index: 0;
+
+    tranform: skewY(2deg);
+    -webkit-transform: skewY(2deg); /* Safari & Chrome */
+    -moz-transform: skewY(2deg); /* Firefox */
+    -ms-transform: skewY(2deg); /* Internet Explorer */
+    -o-transform: kewY(2deg); /* Opera */
+}
+
+`
 
 export const SocialWrapper = styled.div`
     display: flex;

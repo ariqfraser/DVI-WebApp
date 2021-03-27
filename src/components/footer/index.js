@@ -1,11 +1,15 @@
 import React from 'react'
 import Logo from '../../static/images/logo.png'
-import {Container, SocialWrapper, SocialLink, FooterImg, Instagram, Facebook, Twitter, FooterText} from './footer.elements'
+import {Slant, Container, SocialWrapper, SocialLink, FooterImg, Instagram, Facebook, Twitter, FooterText} from './footer.elements'
 
 const Footer = () => {
+
+    
+
     return (
         <>
             <Container>
+                <Slant></Slant>
                 <SocialWrapper>
                     <SocialLink to='/'>
                         <Instagram />

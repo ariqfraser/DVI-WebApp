@@ -17,7 +17,7 @@ export const Container = styled.div`
 
 export const SplitL = styled.div`
     width: 50%;
-    padding: 0 4rem;
+    //padding: 0 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

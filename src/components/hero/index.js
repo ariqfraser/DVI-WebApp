@@ -4,7 +4,7 @@ import Video from '../../static/videos/icecream.mp4'
 import {Button} from '../button.elements'
 
 
-const Hero = () => {
+const Hero = ({modalToggle}) => {
     return (
         <HeroContainer>
             <HeroBg>
@@ -17,7 +17,7 @@ const Hero = () => {
                     Stay up to date and sign up for our newsletter!
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='/'>Sign Up! <ArrowRight /></Button>
+                    <Button to='/' onClick={modalToggle}>Sign Up! <ArrowRight /></Button>
                     
                 </HeroBtnWrapper>
             </HeroContent>

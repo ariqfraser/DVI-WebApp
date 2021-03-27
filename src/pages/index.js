@@ -6,6 +6,8 @@ import Feature from '../components/feature'
 import '../static/css/global.css'
 import About from '../components/about'
 import Footer from '../components/footer'
+import Vans from '../components/vans'
+import FormModal from '../components/form'
 
 const Home = () => {
 
@@ -15,14 +17,21 @@ const Home = () => {
         setIsOpen(!isOpen);
     }
 
+    const [isModal, setIsModal] = useState(false)
+
+    const modalToggle = () => {
+        setIsModal(!isModal);
+    }
+
     return (
         <>
+            <Sidebar isOpen={isOpen} toggle={toggle} modalToggle={modalToggle}/>
+            <FormModal isModal={isModal} modalToggle={modalToggle}/>
+            <Navbar  toggle={toggle}  modalToggle={modalToggle}/>
             
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar  toggle={toggle}  />
-            <Hero />
+            <Hero modalToggle={modalToggle} />
             <Feature />
-            <About />
+            <Vans />
             <About />
             <Footer />
         </>

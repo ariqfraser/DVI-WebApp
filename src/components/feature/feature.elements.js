@@ -36,6 +36,11 @@ export const ItemWrapper = styled(Link)`
 export const ItemImg = styled.img`
     width: 100%;
     margin: 0 0 8px 0;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        filter: drop-shadow(0px 0px 10px #EB697F);
+    }
 `;
 
 export const ItemName = styled.h2`
